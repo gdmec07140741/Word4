@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:layout_marginTop="10dip">
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="match_parent"
+            android:text="姓名："
+            android:id="@+id/tv1"
+            android:textSize="30dip"
+            android:textIsSelectable="true" />
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="50dip"
+            android:id="@+id/edit1"
+            android:textSize="10dip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dip">
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="match_parent"
+            android:text="单位："
+            android:id="@+id/tv2"
+            android:textSize="30dip"
+            android:textIsSelectable="true" />
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:id="@+id/edit2"
+            android:textSize="10dip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dip">
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="match_parent"
+            android:text="电话："
+            android:id="@+id/tv3"
+            android:textSize="30dip" />
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="50dip"
+            android:id="@+id/edit3"
+            android:textSize="10dip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dip">
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="match_parent"
+            android:text="QQ："
+            android:id="@+id/tv4"
+            android:textSize="30dip" />
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="50dip"
+            android:id="@+id/edit4"
+            android:textSize="10dip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dip">
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="match_parent"
+            android:text="地址："
+            android:id="@+id/tv5"
+            android:textSize="30dip" />
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="100dip"
+            android:id="@+id/edit5"
+            android:textSize="10dip"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dip">
+        <Button
+            android:layout_width="180dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt1"
+            android:text="保存"
+            android:textSize="30dip" />
+        <Button
+            android:layout_width="180dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt2"
+            android:text="退出"
+            android:textSize="30dip" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
